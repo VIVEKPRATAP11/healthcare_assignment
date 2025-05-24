@@ -6,6 +6,7 @@ import UpcomingSchedule from './dashboard/UpcomingSchedule'
 import ActivityFeed from './dashboard/ActivityFeed'
 
 const DashboardGrid = styled.div`
+  zoom:0.8;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1.5rem;
@@ -41,7 +42,7 @@ const DashboardMainContent = () => {
   return (
     <DashboardGrid>
       {/* Overview Section - Spans 4 columns */}
-      <DashboardOverview />
+      <DashboardOverview  />
       
       {/* Anatomy Section - Spans 4 columns */}
       <AnatomySection />
